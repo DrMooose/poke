@@ -1,0 +1,423 @@
+pnum	pname	pgen	parent	child	type_1	type_2
+1	Bulbasaur	1		Ivysaur	Grass	Poison
+2	Ivysaur	1	Bulbasaur	Venusaur	Grass	Poison
+3	Venusaur	1	Ivysaur		Grass	Poison
+4	Charmander	1		Charmeleon	Fire	
+5	Charmeleon	1	Charmander	Charizard	Fire	
+6	Charizard	1	Charmeleon		Fire	Flying
+7	Squirtle	1		Wartortle	Water	
+8	Wartortle	1	Squirtle	Blastoise	Water	
+9	Blastoise	1	Wartortle		Water	
+10	Caterpie	1		Metapod	Bug	
+11	Metapod	1	Caterpie	Butterfree	Bug	
+12	Butterfree	1	Metapod		Bug	Flying
+13	Weedle	1		Kakuna	Bug	Poison
+14	Kakuna	1	Weedle	Beedrill	Bug	Poison
+15	Beedrill	1	Kakuna		Bug	Poison
+16	Pidgey	1		Pidgeotto	Normal	Flying
+17	Pidgeotto	1	Pidgey	Pidgeot	Normal	Flying
+18	Pidgeot	1	Pidgeotto		Normal	Flying
+19	Rattata	1		Raticate	Normal	
+20	Raticate	1	Rattata		Normal	
+21	Spearow	1		Fearow	Normal	Flying
+22	Fearow	1	Spearow		Normal	Flying
+23	Ekans	1		Arbok	Poison	
+24	Arbok	1	Ekans		Poison	
+25	Pikachu	1	Pichu	Raichu	Electric	
+26	Raichu	1	Pikachu		Electric	
+27	Sandshrew	1		Sandslash	Ground	
+28	Sandslash	1	Sandshrew		Ground	
+29	Nidoran_	1		Nidorina	Poison	
+30	Nidorina	1	Nidoran_	Nidoqueen	Poison	
+31	Nidoqueen	1	Nidorina		Poison	Ground
+32	Nidoran_	1		Nidorino	Poison	
+33	Nidorino	1	Nidoran_	Nidoking	Poison	
+34	Nidoking	1	Nidorino		Poison	Ground
+35	Clefairy	1	Cleffa	Clefable	Fairy	
+36	Clefable	1	Clefairy		Fairy	
+37	Vulpix	1		Ninetales	Fire	
+38	Ninetales	1	Vulpix		Fire	
+39	Jigglypuff	1	Igglybuff	Wigglytuff	Normal	Fairy
+40	Wigglytuff	1	Jigglypuff		Normal	Fairy
+41	Zubat	1		Golbat	Poison	Flying
+42	Golbat	1	Zubat	Crobat	Poison	Flying
+43	Oddish	1		Gloom	Grass	Poison
+44	Gloom	1	Oddish	Vileplume / Bellossom	Grass	Poison
+45	Vileplume	1	Gloom		Grass	Poison
+46	Paras	1		Parasect	Bug	Grass
+47	Parasect	1	Paras		Bug	Grass
+48	Venonat	1		Venomoth	Bug	Poison
+49	Venomoth	1	Venonat		Bug	Poison
+50	Diglett	1		Dugtrio	Ground	
+51	Dugtrio	1	Diglett		Ground	
+52	Meowth	1		Persian	Normal	
+53	Persian	1	Meowth		Normal	
+54	Psyduck	1		Golduck	Water	
+55	Golduck	1	Psyduck		Water	
+56	Mankey	1		Primeape	Fighting	
+57	Primeape	1	Mankey		Fighting	
+58	Growlithe	1		Arcanine	Fire	
+59	Arcanine	1	Growlithe		Fire	
+60	Poliwag	1		Poliwhirl	Water	
+61	Poliwhirl	1	Poliwag	Poliwrath / Politoed	Water	
+62	Poliwrath	1	Poliwhirl		Water	Fighting
+63	Abra	1		Kadabra	Psychic	
+64	Kadabra	1	Abra	Alakazam	Psychic	
+65	Alakazam	1	Kadabra		Psychic	
+66	Machop	1		Machoke	Fighting	
+67	Machoke	1	Machop	Machamp	Fighting	
+68	Machamp	1	Machoke		Fighting	
+69	Bellsprout	1		Weepinbell	Grass	Poison
+70	Weepinbell	1	Bellsprout	Victreebel	Grass	Poison
+71	Victreebel	1	Weepinbell		Grass	Poison
+72	Tentacool	1		Tentacruel	Water	Poison
+73	Tentacruel	1	Tentacool		Water	Poison
+74	Geodude	1		Graveler	Rock	Ground
+75	Graveler	1	Geodude	Golem	Rock	Ground
+76	Golem	1	Graveler		Rock	Ground
+77	Ponyta	1		Rapidash	Fire	
+78	Rapidash	1	Ponyta		Fire	
+79	Slowpoke	1		Slowbro / Slowking	Water	Psychic
+80	Slowbro	1	Slowpoke		Water	Psychic
+81	Magnemite	1		Magneton	Electric	Steel
+82	Magneton	1	Magnemite	Magnezone	Electric	Steel
+83	Farfetch'd	1			Normal	Flying
+84	Doduo	1		Dodrio	Normal	Flying
+85	Dodrio	1	Doduo		Normal	Flying
+86	Seel	1		Dewgong	Water	
+87	Dewgong	1	Seel		Water	Ice
+88	Grimer	1		Muk	Poison	
+89	Muk	1	Grimer		Poison	
+90	Shellder	1		Cloyster	Water	
+91	Cloyster	1	Shellder		Water	Ice
+92	Gastly	1		Haunter	Ghost	Poison
+93	Haunter	1	Gastly	Gengar	Ghost	Poison
+94	Gengar	1	Haunter		Ghost	Poison
+95	Onix	1		Steelix	Rock	Ground
+96	Drowzee	1		Hypno	Psychic	
+97	Hypno	1	Drowzee		Psychic	
+98	Krabby	1		Kingler	Water	
+99	Kingler	1	Krabby		Water	
+100	Voltorb	1		Electrode	Electric	
+101	Electrode	1	Voltorb		Electric	
+102	Exeggcute	1		Exeggutor	Grass	Psychic
+103	Exeggutor	1	Exeggcute		Grass	Psychic
+104	Cubone	1		Marowak	Ground	
+105	Marowak	1	Cubone		Ground	
+106	Hitmonlee	1	Tyrogue		Fighting	
+107	Hitmonchan	1	Tyrogue		Fighting	
+108	Lickitung	1		Lickilicky	Normal	
+109	Koffing	1		Weezing	Poison	
+110	Weezing	1	Koffing		Poison	
+111	Rhyhorn	1		Rhydon	Ground	Rock
+112	Rhydon	1	Rhyhorn	Rhyperior	Ground	Rock
+113	Chansey	1	Happiny	Blissey	Normal	
+114	Tangela	1		Tangrowth	Grass	
+115	Kangaskhan	1			Normal	
+116	Horsea	1		Seadra	Water	
+117	Seadra	1	Horsea	Kingdra	Water	
+118	Goldeen	1		Seaking	Water	
+119	Seaking	1	Goldeen		Water	
+120	Staryu	1		Starmie	Water	
+121	Starmie	1	Staryu		Water	Psychic
+122	Mr. Mime	1	Mime Jr		Psychic	Fairy
+123	Scyther	1		Scizor	Bug	Flying
+124	Jynx	1	Smoochum		Ice	Psychic
+125	Electabuzz	1	Elekid	Electivire	Electric	
+126	Magmar	1	Magby	Magmortar	Fire	
+127	Pinsir	1			Bug	
+128	Tauros	1			Normal	
+129	Magikarp	1		Gyarados	Water	
+130	Gyarados	1	Magikarp		Water	Flying
+131	Lapras	1			Water	Ice
+132	Ditto	1			Normal	
+133	Eevee	1		Vaporeon / Jolteon / Flareon / Umbreon / Espeon / Leafeon / Glaceon / Sylveon	Normal	
+134	Vaporeon	1	Eevee		Water	
+135	Jolteon	1	Eevee		Electric	
+136	Flareon	1	Eevee		Fire	
+137	Porygon	1		Porygon2	Normal	
+138	Omanyte	1		Omastar	Rock	Water
+139	Omastar	1	Omanyte		Rock	Water
+140	Kabuto	1		Kabutops	Rock	Water
+141	Kabutops	1	Kabuto		Rock	Water
+142	Aerodactyl	1			Rock	Flying
+143	Snorlax	1	Munchlax		Normal	
+144	Articuno	1			Ice	Flying
+145	Zapdos	1			Electric	Flying
+146	Moltres	1			Fire	Flying
+147	Dratini	1		Dragonair	Dragon	
+148	Dragonair	1	Dratini	Dragonite	Dragon	
+149	Dragonite	1	Dragonair		Dragon	Flying
+150	Mewtwo	1			Psychic	
+151	Mew	1			Psychic	
+152	Chikorita	2		Bayleef	Grass	
+153	Bayleef	2	Chikorita	Meganium	Grass	
+154	Meganium	2	Bayleef		Grass	
+155	Cyndaquil	2		Quilava	Fire	
+156	Quilava	2	Cyndaquil	Typhlosion	Fire	
+157	Typhlosion	2	Quilava		Fire	
+158	Totodile	2		Croconaw	Water	
+159	Croconaw	2	Totodile	Feraligatr	Water	
+160	Feraligatr	2	Croconaw		Water	
+161	Sentret	2		Furret	Normal	
+162	Furret	2	Sentret		Normal	
+163	Hoothoot	2		Noctowl	Normal	Flying
+164	Noctowl	2	Hoothoot		Normal	Flying
+165	Ledyba	2		Ledian	Bug	Flying
+166	Ledian	2	Ledyba		Bug	Flying
+167	Spinarak	2		Ariados	Bug	Poison
+168	Ariados	2	Spinarak		Bug	Poison
+169	Crobat	2	Golbat		Poison	Flying
+170	Chinchou	2		Lanturn	Water	Electric
+171	Lanturn	2	Chinchou		Water	Electric
+172	Pichu	2		Pikachu	Electric	
+173	Cleffa	2		Clefairy	Fairy	
+174	Igglybuff	2		Jigglypuff	Normal	Fairy
+175	Togepi	2		Togetic	Fairy	
+176	Togetic	2	Togepi	Togekiss	Fairy	Flying
+177	Natu	2		Xatu	Psychic	Flying
+178	Xatu	2	Natu		Psychic	Flying
+179	Mareep	2		Flaaffy	Electric	
+180	Flaaffy	2	Mareep	Ampharos	Electric	
+181	Ampharos	2	Flaaffy		Electric	
+182	Bellossom	2	Gloom		Grass	
+183	Marill	2	Azurill	Azumarill	Water	Fairy
+184	Azumarill	2	Marill		Water	Fairy
+185	Sudowoodo	2	Bonsly		Rock	
+186	Politoed	2	Poliwhirl		Water	
+187	Hoppip	2		Skiploom	Grass	Flying
+188	Skiploom	2	Hoppip	Jumpluff	Grass	Flying
+189	Jumpluff	2	Skiploom		Grass	Flying
+190	Aipom	2		Ambipom	Normal	
+191	Sunkern	2		Sunflora	Grass	
+192	Sunflora	2	Sunkern		Grass	
+193	Yanma	2		Yanmega	Bug	Flying
+194	Wooper	2		Quagsire	Water	Ground
+195	Quagsire	2	Wooper		Water	Ground
+196	Espeon	2	Eevee		Psychic	
+197	Umbreon	2	Eevee		Dark	
+198	Murkrow	2		Honchkrow	Dark	Flying
+199	Slowking	2	Slowpoke		Water	Psychic
+200	Misdreavus	2		Mismagius	Ghost	
+201	Unown	2			Psychic	
+202	Wobbuffet	2	Wynaut		Psychic	
+203	Girafarig	2			Normal	Psychic
+204	Pineco	2		Forretress	Bug	
+205	Forretress	2	Pineco		Bug	Steel
+206	Dunsparce	2			Normal	
+207	Gligar	2		Gliscor	Ground	Flying
+208	Steelix	2	Onix		Steel	Ground
+209	Snubbull	2		Granbull	Fairy	
+210	Granbull	2	Snubbull		Fairy	
+211	Qwilfish	2			Water	Poison
+212	Scizor	2	Scyther		Bug	Steel
+213	Shuckle	2			Bug	Rock
+214	Heracross	2			Bug	Fighting
+215	Sneasel	2	Weavile		Dark	Ice
+216	Teddiursa	2		Ursaring	Normal	
+217	Ursaring	2	Teddiursa		Normal	
+218	Slugma	2		Magcargo	Fire	
+219	Magcargo	2	Slugma		Fire	Rock
+220	Swinub	2		Piloswine	Ice	Ground
+221	Piloswine	2	Swinub	Mamoswine	Ice	Ground
+222	Corsola	2			Water	Rock
+223	Remoraid	2			Water	
+224	Octillery	2	Remoraid		Water	
+225	Delibird	2			Ice	Flying
+226	Mantine	2	Mantyke		Water	Flying
+227	Skarmory	2			Steel	Flying
+228	Houndour	2		Houndoom	Dark	Fire
+229	Houndoom	2	Houndour		Dark	Fire
+230	Kingdra	2	Seadra		Water	Dragon
+231	Phanpy	2		Donphan	Ground	
+232	Donphan	2	Phanpy		Ground	
+233	Porygon2	2	Porygon	Porygon Z	Normal	
+234	Stantler	2			Normal	
+235	Smeargle	2			Normal	
+236	Tyrogue	2		Hitmonlee / Hitmonchan / Hitmontop	Fighting	
+237	Hitmontop	2	Tyrogue		Fighting	
+238	Smoochum	2		Jynx	Ice	Psychic
+239	Elekid	2		Electabuzz	Electric	
+240	Magby	2		Magmar	Fire	
+241	Miltank	2			Normal	
+242	Blissey	2	Chansey		Normal	
+243	Raikou	2			Electric	
+244	Entei	2			Fire	
+245	Suicune	2			Water	
+246	Larvitar	2		Pupitar	Rock	Ground
+247	Pupitar	2	Larvitar	Tyranitar	Rock	Ground
+248	Tyranitar	2	Pupitar		Rock	Dark
+249	Lugia	2			Psychic	Flying
+250	Ho-Oh	2			Fire	Flying
+251	Celebi	2			Psychic	Grass
+252	Treecko	3		Grovyle	Grass	
+253	Grovyle	3	Treecko	Sceptile	Grass	
+254	Sceptile	3	Grovyle		Grass	
+255	Torchic	3		Combusken	Fire	
+256	Combusken	3	Torchic	Blaziken	Fire	Fighting
+257	Blaziken	3	Combusken		Fire	Fighting
+258	Mudkip	3		Marshtomp	Water	
+259	Marshtomp	3	Mudkip	Swampert	Water	Ground
+260	Swampert	3	Marshtomp		Water	Ground
+261	Poochyena	3		Mightyena	Dark	
+262	Mightyena	3	Poochyena		Dark	
+263	Zigzagoon	3		Linoone	Normal	
+264	Linoone	3	Zigzagoon		Normal	
+265	Wurmple	3		Silcoon / Cascoon	Bug	
+266	Silcoon	3	Wurmple	Beautifly	Bug	
+267	Beautifly	3	Silcoon		Bug	Flying
+268	Cascoon	3	Wurmple	Dustox	Bug	
+269	Dustox	3	Cascoon		Bug	Poison
+270	Lotad	3		Lombre	Water	Grass
+271	Lombre	3	Lotad	Ludicolo	Water	Grass
+272	Ludicolo	3	Lombre		Water	Grass
+273	Seedot	3		Nuzleaf	Grass	
+274	Nuzleaf	3	Seedot	Shiftry	Grass	Dark
+275	Shiftry	3	Nuzleaf		Grass	Dark
+276	Taillow	3		Swellow	Normal	Flying
+277	Swellow	3	Taillow		Normal	Flying
+278	Wingull	3		Pelipper	Water	Flying
+279	Pelipper	3	Wingull		Water	Flying
+280	Ralts	3		Kirlia	Psychic	Fairy
+281	Kirlia	3	Ralts	Gardevoir / Gallade	Psychic	Fairy
+282	Gardevoir	3	Kirlia		Psychic	Fairy
+283	Surskit	3		Masquerain	Bug	Water
+284	Masquerain	3	Surskit		Bug	Flying
+285	Shroomish	3		Breloom	Grass	
+286	Breloom	3	Shroomish		Grass	Fighting
+287	Slakoth	3		Vigoroth	Normal	
+288	Vigoroth	3	Slakoth	Slaking	Normal	
+289	Slaking	3	Vigoroth		Normal	
+290	Nincada	3		Ninjask	Bug	Ground
+291	Ninjask	3	Nincada	Shedinja	Bug	Flying
+292	Shedinja	3	Nincada		Bug	Ghost
+293	Whismur	3		Loudred	Normal	
+294	Loudred	3	Whismur	Exploud	Normal	
+295	Exploud	3	Loudred		Normal	
+296	Makuhita	3		Hariyama	Fighting	
+297	Hariyama	3	Makuhita		Fighting	
+298	Azurill	3		Marill	Normal	Fairy
+299	Nosepass	3		Probopass	Rock	
+300	Skitty	3		Delcatty	Normal	
+301	Delcatty	3	Skitty		Normal	
+302	Sableye	3			Dark	Ghost
+303	Mawile	3			Steel	Fairy
+304	Aron	3		Lairon	Steel	Rock
+305	Lairon	3	Aron	Aggron	Steel	Rock
+306	Aggron	3	Lairon		Steel	Rock
+307	Meditite	3		Medicham	Fighting	Psychic
+308	Medicham	3	Meditite		Fighting	Psychic
+309	Electrike	3		Manectric	Electric	
+310	Manectric	3	Electrike		Electric	
+311	Plusle	3			Electric	
+312	Minun	3			Electric	
+313	Volbeat	3			Bug	
+314	Illumise	3			Bug	
+315	Roselia	3	Budew	Roserade	Grass	Poison
+316	Gulpin	3		Swalot	Poison	
+317	Swalot	3	Gulpin		Poison	
+318	Carvanha	3		Sharpedo	Water	Dark
+319	Sharpedo	3	Carvanha		Water	Dark
+320	Wailmer	3		Wailord	Water	
+321	Wailord	3	Wailmer		Water	
+322	Numel	3		Camerupt	Fire	Ground
+323	Camerupt	3	Numel		Fire	Ground
+324	Torkoal	3			Fire	
+325	Spoink	3		Grumpig	Psychic	
+326	Grumpig	3	Spoink		Psychic	
+327	Spinda	3			Normal	
+328	Trapinch	3		Vibrava	Ground	
+329	Vibrava	3	Trapinch	Flygon	Ground	Dragon
+330	Flygon	3	Vibrava		Ground	Dragon
+331	Cacnea	3		Cacturne	Grass	
+332	Cacturne	3	Cacnea		Grass	Dark
+333	Swablu	3		Altaria	Normal	Flying
+334	Altaria	3	Swablu		Dragon	Flying
+335	Zangoose	3			Normal	
+336	Seviper	3			Poison	
+337	Lunatone	3			Rock	Psychic
+338	Solrock	3			Rock	Psychic
+339	Barboach	3		Whiscash	Water	Ground
+340	Whiscash	3	Barboach		Water	Ground
+341	Corphish	3		Crawdaunt	Water	
+342	Crawdaunt	3	Corphish		Water	Dark
+343	Baltoy	3		Claydol	Ground	Psychic
+344	Claydol	3	Baltoy		Ground	Psychic
+345	Lileep	3		Cradily	Rock	Grass
+346	Cradily	3	Lileep		Rock	Grass
+347	Anorith	3		Armaldo	Rock	Bug
+348	Armaldo	3	Anorith		Rock	Bug
+349	Feebas	3		Milotic	Water	
+350	Milotic	3	Feebas		Water	
+351	Castform	3			Normal	
+351	Castform	3			Fire	
+351	Castform	3			Water	
+351	Castform	3			Ice	
+352	Kecleon	3			Normal	
+353	Shuppet	3		Banette	Ghost	
+354	Banette	3	Shuppet		Ghost	
+355	Duskull	3		Dusclops	Ghost	
+356	Dusclops	3	Duskull	Dusknoir	Ghost	
+357	Tropius	3			Grass	Flying
+358	Chimecho	3	Chingling		Psychic	
+359	Absol	3			Dark	
+360	Wynaut	3		Wobbuffet	Psychic	
+361	Snorunt	3		Glalie	Ice	
+362	Glalie	3	Snorunt	Froslass	Ice	
+363	Spheal	3		Sealeo	Ice	Water
+364	Sealeo	3	Spheal	Walrein	Ice	Water
+365	Walrein	3	Sealeo		Ice	Water
+366	Clamperl	3		Huntail	Water	
+367	Huntail	3	Clamperl	Gorebyss	Water	
+368	Gorebyss	3	Clamperl		Water	
+369	Relicanth	3			Water	Rock
+370	Luvdisc	3			Water	
+371	Bagon	3		Shelgon	Dragon	
+372	Shelgon	3	Bagon	Salamence	Dragon	
+373	Salamence	3	Shelgon		Dragon	Flying
+374	Beldum	3		Metang	Steel	Psychic
+375	Metang	3	Beldum	Metagross	Steel	Psychic
+376	Metagross	3	Metang		Steel	Psychic
+377	Regirock	3			Rock	
+378	Regice	3			Ice	
+379	Registeel	3			Steel	
+380	Latias	3			Dragon	Psychic
+381	Latios	3			Dragon	Psychic
+382	Kyogre	3			Water	
+383	Groudon	3			Ground	
+384	Rayquaza	3			Dragon	Flying
+385	Jirachi	3			Steel	Psychic
+386	Deoxys (Normal)	3			Psychic	
+386	Deoxys (Attach)	3			Psychic	
+386	Deoxys (Defense)	3			Psychic	
+386	Deoxys (Speed)	3			Psychic	
+406	Budew	4		Roselia	Grass	Poison
+407	Roserade	4	Roselia		Grass	Poison
+424	Ambipom	4	Aipom		Normal	
+429	Mismagius	4	Misdreavus		Ghost	
+430	Honchkrow	4	Murkrow		Dark	Flying
+433	Chingling	4		Chimecho	Psychic	
+438	Bonsly	4		Sudowoodo	Rock	
+439	Mime Jr	4		Mr Mime	Psychic	Fairy
+440	Happiny	4		Chansey	Normal	
+446	Munchlax	4		Snorlax	Normal	
+458	Mantyke	4		Mantine	Water	Flying
+461	Weavile	4		Sneasel	Dark	Ice
+462	Magnezone	4	Magneton		Electric	Steel
+463	Lickilicky	4	Lickitung		Normal	
+464	Rhyperior	4	Rhydon		Ground	Rock
+465	Tangrowth	4	Tangela		Grass	
+466	Electivire	4	Electabuzz		Electric	
+467	Magmortar	4	Magmar		Fire	
+468	Togekiss	4	Togetic		Fairy	Flying
+468	Yanmega	4	Yanma		Bug	Flying
+470	Leafeon	4	Eevee		Grass	
+471	Glaceon	4	Eevee		Ice	
+472	Gliscor	4	Gligar		Ground	Flying
+473	Mamoswine	4	Piloswine		Ice	Ground
+474	Porygon Z	4	Porygon2		Normal	
+475	Gallade	4	Kirlia		Psychic	Fighting
+476	Probopass	4	Nosepass		Rock	Steel
+477	Dusknoir	4	Dusclops		Ghost	
+478	Froslass	4	Snorunt		Ice	Ghost
+700	Sylveon	6	Eevee		Fairy	

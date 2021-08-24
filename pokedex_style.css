@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #08AD76;
+    padding-top: 1rem;
+}
+
+.main {
+    color: white;
+    text-align: center;
+}
+
+header {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.choices {
+    font-family: 'Cairo', sans-serif;
+    background-color: #152721;
+    margin: 0rem 500px;
+    padding: 1rem 0rem 2rem 0rem;
+    border: solid 3px white;
+    border-radius: 3rem;
+}
+
+input[type="submit"] {
+    background-color: #08AD76;
+    color: white;
+    border: solid 1px #08AD76;
+    border-radius: 20px;
+    padding: .25rem;
+    font-size: 17.5px;
+}
